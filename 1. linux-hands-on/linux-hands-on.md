@@ -172,7 +172,8 @@ flog --entries 2000 > access.log
   ![task4.15](./images/task4.15.png)
 
 
-### Submission Requirements
+### Hardest Part
+Using `awk`, `sed`, and `grep`, especially when combined with `sort`, `uniq`, `head`, `tail`, or other commands involving regular expressions, was quite confusing at first. Maybe the `|` (piping) operator is both incredibly useful and painfully tricky at the same time, lol.
 
-1. Document all tasks in this homework, including steps taken and command outputs, in a Notion or document file. Include relevant screenshots of terminal outputs.
-2. Include a brief summary of challenges encountered and how they were resolved.
+### Final Thoughts
+Doing this CLI homework was pretty fun. I think troubleshooting a Linux system requires a deeper understanding of the basic tools that come pre-installed. Sometimes, we just can't rely on fancy modern tools.
