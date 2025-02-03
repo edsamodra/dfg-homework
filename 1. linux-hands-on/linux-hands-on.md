@@ -100,13 +100,29 @@ flog --entries 2000 > access.log
 ### 3. Process Management
 
 - **Task 3.1:** Start a long-running process using the command `sleep 500 &` and note its PID.
+  ![task3.1](./images/task3.1.png)
+
 - **Task 3.2:** Run `stress` in a separate terminal tab to simulate light CPU and memory usage: `stress --cpu 1 --vm 1 --vm-bytes 512M --timeout 30s`.
+  ![task3.2](./images/task3.2.png)
+
 - **Task 3.3:** Use `top` or `htop` to monitor the system and identify resource usage by processes.
+  ![task3.3](./images/task3.3.png)
+
 - **Task 3.4:** Use `ps` to verify the `sleep` process is running.
+  ![task3.4](./images/task3.4.png)
+
 - **Task 3.5:** Use `df` and `du` to check disk space usage, particularly focusing on large files in the system.
+  ![task3.5](./images/task3.5.png)
+
 - **Task 3.6:** Use `free` to monitor memory usage while `stress` is running.
+  ![task3.6](./images/task3.6.png)
+
 - **Task 3.7:** Use `ps -aux` and `awk` to log processes consuming more than 10% CPU into a file `high_cpu.log` every 5 seconds.
+  ![task3.7](./images/task3.7.png)
+
 - **Task 3.8:** Kill the long-running process started in Task 3.1 using its PID.
+  ![task3.8](./images/task3.8.png)
+
 
 ### 4. Networking Tools
 
