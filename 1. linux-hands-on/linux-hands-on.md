@@ -67,15 +67,35 @@
 flog --entries 2000 > access.log
 ```
 
+  ![task2.1](./images/task2.1.png)
+
 - **Task 2.2:** Extract and display all unique IP addresses from the `access.log` file using `awk` or `cut`.
+  ![task2.2](./images/task2.2.png)
+
 - **Task 2.3:** Count how many times each IP address appears in the log file and save the results to `ip_counts.txt`.
+  ![task2.3](./images/task2.3.png)
+
 - **Task 2.4:** Use `grep` to filter all log entries containing the status code `404` and save them to `errors.log`.
+  ![task2.4](./images/task2.4.png)
+
 - **Task 2.5:** Replace all occurrences of the user agent string `"Mozilla"` with `"BrowserX"` in the `access.log` file and save the modified log as `access_modified.log`.
+  ![task2.5](./images/task2.5.png)
+
 - **Task 2.6:** Extract all log entries from a specific date (e.g., "2025-01-01") using `grep` and save them into `specific_date.log`.
+  ![task2.6](./images/task2.6.png)
+
 - **Task 2.7:** Use `awk` to calculate the total number of bytes transferred (from a specific column in the log) and output the result.
+  ![task2.7](./images/task2.7.png)
+
 - **Task 2.8:** Combine `grep` and `awk` to find the IP address with the highest number of `404` errors and save the result in `top_404_ip.txt`.
+  ![task2.8](./images/task2.8.png)
+
 - **Task 2.9:** Use `sed` to anonymize all IP addresses in the `access.log` file, replacing them with "ANONYMIZED_IP" and save it as `access_anonymized.log`.
+  ![task2.9](./images/task2.9.png)
+
 - **Task 2.10:** Use pipes (`|`) to combine `grep` and `wc` commands to count the number of log entries with a `500` status code.
+  ![task2.10](./images/task2.10.png)
+
 
 ### 3. Process Management
 
