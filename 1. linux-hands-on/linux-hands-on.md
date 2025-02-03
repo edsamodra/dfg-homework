@@ -127,20 +127,50 @@ flog --entries 2000 > access.log
 ### 4. Networking Tools
 
 - **Task 4.1:** Use `ping` to check the connectivity to `google.com` and log the output into `ping_output.txt`.
+  ![task4.1](./images/task4.1.png)
+
 - **Task 4.2:** Use `ping` to check the connectivity to `google.com` with 10 packets, logging the output into `ping_10_packets.txt`.
+  ![task4.2](./images/task4.2.png)
+
 - **Task 4.3:** Use `ping` to check the connectivity to `google.com` with a packet size of 1000 bytes, and log the output into `ping_large_packet.txt`.
+  ![task4.3](./images/task4.3.png)
+
 - **Task 4.4:** Use `telnet` to test the connectivity to port 80 on `discord.com`.
+  ![task4.4](./images/task4.4.png)
+
 - **Task 4.5:** Use `telnet` to check the connection to the SMTP server at `smtp.gmail.com` on port 25.
+  ![task4.5](./images/task4.5.png)
+
 - **Task 4.6:** Use `curl` to fetch the content of `https://discord.com` and save it to a file `discord.html`.
+  ![task4.6](./images/task4.6.png)
+
 - **Task 4.7:** Use `curl` to fetch the content of `https://google.com` and add a custom header `User-Agent: MyBrowser`.
+  ![task4.7](./images/task4.7.png)
+
 - **Task 4.8:** Use `netstat` to list all active TCP connections on your system.
+  ![task4.8](./images/task4.8.png)
+
 - **Task 4.9:** Use `netstat` to display all ports that are in the listening state on your system.
+  ![task4.9](./images/task4.9.png)
+
 - **Task 4.10:** Use `iperf` in client mode to test the network bandwidth to a remote server (`iperf-server.google.com`).
+  ![task4.10](./images/task4.10.png)
+
 - **Task 4.11:** Use `iperf` in server mode to listen for incoming connections on a remote machine (`iperf-server.discord.com`).
+  ![task4.11](./images/task4.11.png)
+
 - **Task 4.12:** Use `nc` (Netcat) to check if port 443 is open on `discord.com`.
+  ![task4.12](./images/task4.12.png)
+
 - **Task 4.13:** Use `nc` to send the message "Hello, Server!" to `google.com` on port 12345.
+  ![task4.13](./images/task4.13.png)
+
 - **Task 4.14:** Use `nc` to start a simple HTTP server on port 8080 and serve a static HTML file.
+  ![task4.14](./images/task4.14.png)
+
 - **Task 4.15:** Use `telnet` to connect to port 53 (DNS) on `8.8.8.8` and manually query for the domain `discord.com`.
+  ![task4.15](./images/task4.15.png)
+
 
 ### Submission Requirements
 
