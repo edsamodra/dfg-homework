@@ -1,5 +1,7 @@
 # DFG - Linux Hands-on Homework
 
+> The assignment was done by Edwin
+
 ### Linux Learning Tasks
 
 ### Prerequisites
@@ -8,10 +10,12 @@
 - Install `flog` to generate fake logs.
 - Install `stress` to simulate CPU and memory load.
 
+![prerequisites](./images/prerequisite.png)
+
 ### 1. File Management
 
 - **Task 1.1:** Create a directory structure as follows:
-    
+
     ```
     project/
     |-- reports/
@@ -19,19 +23,41 @@
     |   |-- 2025/
     |-- scripts/
     |-- data/
-    
+
     ```
-    
+
+  ![task1.1](./images/task1.1.1.png)
+  ![task1.1](./images/task1.1.2.png)
+
 - **Task 1.2:** Create three empty files in the `reports/2024` directory: `q1.txt`, `q2.txt`, and `q3.txt`.
+  ![task1.2](./images/task1.2.png)
+
 - **Task 1.3:** Move `q1.txt` to the `2025` directory.
+  ![task1.3](./images/task1.3.png)
+
 - **Task 1.4:** Copy `q2.txt` to the `scripts` directory and rename it as `analysis.txt`.
+  ![task1.4](./images/task1.4.png)
+
 - **Task 1.5:** List all files in the `reports/2025` directory using `ls` and log the output to `file_list.log`.
+  ![task1.5](./images/task1.5.png)
+
 - **Task 1.6:** Display the contents of `q3.txt` using `cat` and append "Task Completed" to the file.
+  ![task1.6](./images/task1.6.png)
+
 - **Task 1.7:** Use `tree` to display the directory structure of the `project` directory and save the output to `structure.log`.
+  ![task1.7](./images/task1.7.png)
+
 - **Task 1.8:** Remove the `scripts/analysis.txt` file and confirm its deletion by listing the contents of the `scripts` directory.
+  ![task1.8](./images/task1.8.png)
+
 - **Task 1.9:** Copy the entire `project` directory to a new directory named `project-old`.
+  ![task1.9](./images/task1.9.png)
+
 - **Task 1.10:** Delete the original `project` directory.
+  ![task1.10](./images/task1.10.png)
+
 - **Task 1.11:** Create a large file (5GB) in the `data` directory using `dd` or `truncate`. Name it `large_file.dat`.
+  ![task1.11](./images/task1.11.png)
 
 ### 2. Output and Text Manipulation
 
@@ -59,7 +85,7 @@ flog --entries 2000 > access.log
 - **Task 3.4:** Use `ps` to verify the `sleep` process is running.
 - **Task 3.5:** Use `df` and `du` to check disk space usage, particularly focusing on large files in the system.
 - **Task 3.6:** Use `free` to monitor memory usage while `stress` is running.
-- **Task 3.7:**  Use `ps -aux` and `awk` to log processes consuming more than 10% CPU into a file `high_cpu.log` every 5 seconds.
+- **Task 3.7:** Use `ps -aux` and `awk` to log processes consuming more than 10% CPU into a file `high_cpu.log` every 5 seconds.
 - **Task 3.8:** Kill the long-running process started in Task 3.1 using its PID.
 
 ### 4. Networking Tools
